@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(41, 41, 41);
+    height: 100vh; 
+    margin: 0;
+}
+
+/*buscador*/
+
+.BGT00 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.B00{
+    display: flex;
+    background-color: rgb(83, 83, 83);
+    width: 38em;
+    height: 3em;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.busca00 {
+    background-color: rgb(83, 83, 83);
+    border: none;
+    border-radius: 50px;
+    width: 34.7em;
+    height: 3em;
+    font-size: 15px;
+    color: #e1ad21;
+}
+
+.busca00:focus {
+    outline: none;
+}
+
+.busca00::placeholder {
+    color: #e1ad21;
+    opacity: 5;
+}
+    /*buscador-lupa*/
+.lupa {
+    width: 20px;
+    height: 20px;
+}
+
+.buacar009 {
+    background-color: transparent;
+    border: none;
+    padding: 8px 9.5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.buacar009:hover {
+    background-color: rgb(117, 117, 117);
+}
+
+/*logo pricipal*/
+
+.LOG-OF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
